@@ -1,13 +1,17 @@
 <script setup>
 import CatalogHero from '../components/Catalog/Hero.vue'
-import KnivesCollection from '../components/Catalog/KnivesCollection.vue'
+import PrimaryCollection from '../components/Catalog/Collections/Primary.vue'
+import SecondaryCollection from '../components/Catalog/Collections/Secondary.vue'
 </script>
 
 
 <template>
   <div class="catalog">
     <CatalogHero />
-    <KnivesCollection />
+    <PrimaryCollection />
+    <hr>
+    <SecondaryCollection />
+    <hr>
   </div>
 </template>
 
@@ -16,5 +20,10 @@ import KnivesCollection from '../components/Catalog/KnivesCollection.vue'
 .catalog {
   min-height: 500vh;
   background: #373737;;
+}
+hr {
+  border: 1px solid #535353;
+  width: 100%;
+  margin: 15px 0;
 }
 </style>

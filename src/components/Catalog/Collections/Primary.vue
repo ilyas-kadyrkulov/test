@@ -32,7 +32,6 @@
         </div>
       </div>
     </div>
-    <hr>
   </div>
 </template>
 
@@ -46,20 +45,26 @@ import collectionImage6 from "@/assets/collection-item-6.png";
 </script>
 
 <style>
-.container {
-  max-width: 768px;
-  margin: 0 auto;
-}
 .collection {
   display: flex;
   flex-wrap: wrap;
 }
 .collection__row {
   display: flex;
+  margin: 8px 0;
+}
+.collection__row:last-child {
+  margin: 0;
 }
 .collection-item {
   position: relative;
-  margin: 8px;
+  margin: 0 8px;
+}
+.collection-item::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
 .collection-item span {
   position: absolute;
@@ -75,8 +80,5 @@ import collectionImage6 from "@/assets/collection-item-6.png";
 .collection-item img {
   width: 100%;
   height: 100%;
-}
-hr {
-  border: 1px solid #535353;
 }
 </style>
