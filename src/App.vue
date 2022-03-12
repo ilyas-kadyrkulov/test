@@ -1,20 +1,24 @@
 <script setup>
+import Header from './components/Header/Header.vue'
 
 </script>
 
 <template>
-
+  <Header />
   <RouterView />
 </template>
 
 <style>
-@import '@/assets/base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+  padding: 0;
 }
 </style>
