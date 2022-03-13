@@ -2,6 +2,7 @@
 import CatalogHero from '../components/Catalog/Hero.vue'
 import PrimaryCollection from '../components/Catalog/Collections/Primary.vue'
 import SecondaryCollection from '../components/Catalog/Collections/Secondary.vue'
+import Novelties from '../components/Catalog/Novelties.vue'
 </script>
 
 
@@ -12,11 +13,16 @@ import SecondaryCollection from '../components/Catalog/Collections/Secondary.vue
     <hr>
     <SecondaryCollection />
     <hr>
+    <Novelties />
   </div>
 </template>
 
 
 <style>
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 .catalog {
   min-height: 500vh;
   background: #373737;;

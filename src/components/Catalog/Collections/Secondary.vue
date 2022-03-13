@@ -51,16 +51,11 @@ import secondaryCollectionImage8 from "@/assets/secondary-collection-item-8.png"
 </script>
 
 <style>
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
+
 .collection__secondary_row {
   display: flex;
 }
 .collection__secondary_row img {
-  
-  
   width: 100%;
 }
 .collection__secondary-item {
@@ -83,7 +78,7 @@ import secondaryCollectionImage8 from "@/assets/secondary-collection-item-8.png"
   height: 100%;
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.6);
   border-radius: 15px;

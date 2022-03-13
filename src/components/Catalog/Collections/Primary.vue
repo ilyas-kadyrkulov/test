@@ -60,16 +60,19 @@ import collectionImage6 from "@/assets/collection-item-6.png";
   position: relative;
   margin: 0 8px;
 }
-.collection-item::after {
+.collection-item::before {
   content: '';
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 27px;
+  right: 20px;
+  width: 15px;
+  height: 7px;
+  background: url(../src/assets/arrow.svg) no-repeat center;
 }
 .collection-item span {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 20px;
+  left: 20px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;

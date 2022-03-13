@@ -1,7 +1,7 @@
 <template>
   <div class="catalog__hero">
     <img :src="catalogHeroImage" alt="Catalog Image" />
-    <h3>Дом и Ножи</h3>
+    <h2>Дом и Ножи</h2>
     <p>Эксклюзивные технологии на страже чистоты и уюта в вашем доме</p>
   </div>
 </template>
@@ -14,7 +14,7 @@ import catalogHeroImage from "@/assets/catalog-hero.jpg";
 .catalog__hero {
   position: relative;
 }
-.catalog__hero h3 {
+.catalog__hero h2 {
   position: absolute;
   text-align: center;
   width: 100%;
