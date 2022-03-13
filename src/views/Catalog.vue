@@ -25,7 +25,7 @@ import Novelties from '../components/Catalog/Novelties.vue'
 }
 .catalog {
   min-height: 500vh;
-  background: #373737;;
+  background: #373737;
 }
 hr {
   border: 1px solid #535353;
