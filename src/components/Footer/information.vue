@@ -24,7 +24,7 @@ const catalog = [
         <li v-for="item in information" :key="item">{{ item }}</li>
       </div>
     </div>
-    <div class="catalog">
+    <div class="footer-catalog">
       <h3>Каталог</h3>
       <div class="catalogList">
         <li v-for="item in catalog" :key="item">
