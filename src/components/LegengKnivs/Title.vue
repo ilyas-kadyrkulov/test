@@ -26,20 +26,26 @@ import MeateIcon from "@/assets/meat.png";
 <style>
 .title {
   display: flex;
-  background-color: #373737;
+  margin-bottom: 40px;
 }
 .subtitle {
   padding: 0 80px;
 }
 .subtitle h1 {
+  font-family: "Jura";
+  font-style: normal;
   font-weight: 500;
   font-size: 35px;
-  margin-bottom: 50px;
-  color: white;
+  line-height: 42px;
+  color: #ffffff;
 }
 .subtitle p {
-  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 50px;
 }
 </style>

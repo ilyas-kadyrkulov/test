@@ -1,10 +1,10 @@
 <script setup>
-import Title from "./Title.vue";
+import Title from './Title.vue'
 import Description from "./Description.vue";
 </script>
 
 <template>
-  <section class="descrioption">
+  <section class="description">
     <div class="container">
       <Title />
       <Description />
@@ -12,4 +12,8 @@ import Description from "./Description.vue";
   </section>
 </template>
 
-<style></style>
+<style scoped>
+.description {
+  background-color: #373737;
+}
+</style>

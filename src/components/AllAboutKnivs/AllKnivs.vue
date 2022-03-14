@@ -36,6 +36,7 @@ const knivs = [
 
 <style>
 .all-knivs {
+  background-color: #373737;
   padding: 60px 0 40px;
 }
 h1 {
