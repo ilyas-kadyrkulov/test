@@ -1,6 +1,7 @@
 <template>
   <div>
     <img :src="BurgerIcon" alt="" />
+    test
   </div>
 </template>
 
