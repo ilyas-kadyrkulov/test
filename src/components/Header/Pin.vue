@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import PinIcon from '@/assets/headerimg/Logo.svg'
+import PinIcon from '@/assets/headerimg/Map.svg'
 </script>
 
 <style scoped>
