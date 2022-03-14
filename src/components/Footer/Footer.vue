@@ -13,19 +13,23 @@ import Support from "./Support.vue";
         <Information />
         <ContactInfarmation />
       </div>
-      <Support />
     </div>
+      <Support />
+    
   </footer>
 </template>
 
 <style>
 .footer {
-  margin-top: 44px;
   background-color: #272727;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .content {
   display: flex;
   justify-content: space-between;
-  padding: 45px 0;
+  padding: 35px 0;
 }
 </style>

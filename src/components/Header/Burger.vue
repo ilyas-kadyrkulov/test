@@ -12,6 +12,7 @@ import BurgerIcon from "@/assets/headerimg/Burger.svg";
 div {
   height: 23px;
   width: 23px;
+  margin-left: 50px;
 }
 img {
   height: 23px;

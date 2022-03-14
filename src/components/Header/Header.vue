@@ -1,11 +1,9 @@
 <template>
   <div class="header">
-    <div class="container">
-      <div class="wrapper">
-        <div class="wrapper-left"><Burger /> <Pin /> <Number /></div>
-        <div class="wrapper-center"><Logo /></div>
-        <div class="wrapper-right"><Cart /> <Message /> <Search /></div>
-      </div>
+    <div class="wrapper">
+      <div class="wrapper-left"><Burger /> <Pin /> <Number /></div>
+      <div class="wrapper-center"><Logo /></div>
+      <div class="wrapper-right"><Cart /> <Message /> <Search /></div>
     </div>
   </div>
 </template>
@@ -21,31 +19,32 @@ import Search from "./Search.vue";
 </script>
 
 <style scoped>
+.header {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  z-index: 2;
+}
 .wrapper {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: center;
+
   padding-top: 18px;
 }
 .wrapper-left {
-  width: 20%;
   display: flex;
-  align-items: inherit;
-  justify-content: space-between;
+  align-items: center;
 }
 .wrapper-right {
-  width: 10%;
-  align-items: inherit;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 .wrapper-center {
-  width: 80%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin-right: 120px;
 }
 .header {
   width: 100%;
@@ -54,10 +53,5 @@ import Search from "./Search.vue";
   top: 0px;
   background: rgba(33, 33, 33, 0.8);
   backdrop-filter: blur(11px);
-  align-items: center;
-}
-.container {
-  max-width: 1100px;
-  height: 100vh;
 }
 </style> 

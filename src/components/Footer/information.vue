@@ -54,19 +54,31 @@ const catalog = [
   </div>
 </template>
 
-<style>
+<style scoped>
 .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 102px 0 64px;
   width: 385px;
 }
 h3 {
-  font-weight: 600;
-  font-size: 17px;
-  color: white;
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 li {
+  margin: 0 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
-  margin-left: 16px;
+  line-height: 24px;
+  color: #adacac;
 }
 li:first-child {
   margin: 0;
@@ -92,5 +104,8 @@ li:first-child {
 }
 .social a {
   margin: 0 7px;
+}
+.footer-catalog {
+  margin: 40px 0;
 }
 </style>

@@ -9,11 +9,12 @@
 import Input from "../Inputs/Input.vue";
 </script>
 
-<style>
+<style scoped>
 .novelties {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 h3 {
   font-family: "Jura";

@@ -11,7 +11,7 @@ import catalogHeroImage from "@/assets/catalog-hero.jpg";
 import TagH2 from "../TagH/TagH2.vue";
 </script>
 
-<style>
+<style scoped>
 .catalog__hero {
   position: relative;
 }

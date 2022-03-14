@@ -12,6 +12,7 @@ import SearchIcon from '@/assets/headerimg/Search.svg'
 div {
   height: 23px;
   width: 23px;
+  margin-right: 50px;
 }
 img {
   height: 23px;

@@ -18,7 +18,7 @@ import Novelties from '../../components/Catalog/Novelties.vue'
 </template>
 
 
-<style>
+<style scoped>
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -29,7 +29,6 @@ import Novelties from '../../components/Catalog/Novelties.vue'
 }
 hr {
   border: 1px solid #535353;
-  width: 100%;
   margin: 15px 0;
 }
 </style>

@@ -12,6 +12,7 @@ import PinIcon from '@/assets/headerimg/Map.svg'
 div {
   height: 23px;
   width: 23px;
+  margin: 0 30px;
 }
 img {
   height: 23px;

@@ -31,7 +31,7 @@ import MeatIcon2 from "@/assets/meat2.png";
   <div class="hr"></div>
 </template>
 
-<style>
+<style scoped>
 .desc {
   padding: 40px 80px 0 0;
   justify-content: space-between;
@@ -45,6 +45,7 @@ import MeatIcon2 from "@/assets/meat2.png";
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 40px;
+  margin: 10px 0;
 }
 .desc span {
   color: white;

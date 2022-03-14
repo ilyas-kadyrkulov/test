@@ -4,12 +4,12 @@
   <div class="contact-information">
     <div class="contact">
       <h3>Контактная информация</h3>
-      <p>+7 (981) 120-11-17</p>
-      <p>tuotown@mail.ru</p>
-      <p>08:00 — 18:00, ежедневно</p>
-      <p class="contact-asc">
-        Россия, Москва, МКАД, 19-й километр, вл20с1, вход Ф, 22-68-70
-      </p>
+      <p class="contact__number">+7 (981) 120-11-17</p>
+      <div class="contact-asc">
+        <p>tuotown@mail.ru</p>
+        <p>08:00 — 18:00, ежедневно</p>
+        <p>Россия, Москва, МКАД, 19-й километр, вл20с1, вход Ф, 22-68-70</p>
+      </div>
     </div>
     <a href="#">
       <svg
@@ -45,11 +45,32 @@
   </div>
 </template>
 
-<style>
-p {
-  color: white;
+<style scoped>
+.contact h3 {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
 }
-.contact-asc {
+.contact .contact__number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 30px 0 20px;
+}
+.contact .contact-asc p{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
   max-width: 274px;
+  margin: 20px 0;
 }
 </style>

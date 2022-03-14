@@ -1,5 +1,5 @@
 <script setup>
-import LogoIcon from "@/assets/logo.svg";
+import LogoIcon from "@/assets/headerimg/Logo.svg";
 </script>
 
 <template>
@@ -24,20 +24,29 @@ import LogoIcon from "@/assets/logo.svg";
 </template>
 
 <style scoped>
-.logo p {
-  color: white;
-}
 .logo {
   display: flex;
+  align-items: center;
 }
 .logo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #ffffff;
   padding: 0 25px;
 }
 .description {
-  color: white;
-  max-width: 365px;
+  margin: 20px 0;
 }
-p {
-  color: #ffffff;
+.description p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #adacac;
+  max-width: 365px;
 }
 </style>
