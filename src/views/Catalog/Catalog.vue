@@ -1,8 +1,8 @@
 <script setup>
-import CatalogHero from '../components/Catalog/Hero.vue'
-import PrimaryCollection from '../components/Catalog/Collections/Primary.vue'
-import SecondaryCollection from '../components/Catalog/Collections/Secondary.vue'
-import Novelties from '../components/Catalog/Novelties.vue'
+import CatalogHero from '../../components/Catalog/Hero.vue'
+import PrimaryCollection from '../../components/Catalog/Collections/Primary.vue'
+import SecondaryCollection from '../../components/Catalog/Collections/Secondary.vue'
+import Novelties from '../../components/Catalog/Novelties.vue'
 </script>
 
 
@@ -24,7 +24,7 @@ import Novelties from '../components/Catalog/Novelties.vue'
   margin: 0 auto;
 }
 .catalog {
-  min-height: 500vh;
+  min-height: 300vh;
   background: #373737;
 }
 hr {

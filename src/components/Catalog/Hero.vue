@@ -1,13 +1,14 @@
 <template>
   <div class="catalog__hero">
     <img :src="catalogHeroImage" alt="Catalog Image" />
-    <h2>Дом и Ножи</h2>
+    <TagH2><template v-slot:text> Дом и Ножи </template></TagH2>
     <p>Эксклюзивные технологии на страже чистоты и уюта в вашем доме</p>
   </div>
 </template>
 
 <script setup>
 import catalogHeroImage from "@/assets/catalog-hero.jpg";
+import TagH2 from "../TagH/TagH2.vue";
 </script>
 
 <style>
@@ -21,13 +22,6 @@ import catalogHeroImage from "@/assets/catalog-hero.jpg";
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Jura";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 120%;
-  text-transform: uppercase;
-  color: #ffffff;
 }
 .catalog__hero p {
   position: absolute;
