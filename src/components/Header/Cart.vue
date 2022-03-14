@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import CartIcon from "./assets/headerimg/Cart.svg";
+import CartIcon from "@/assets/headerimg/Cart.svg";
 </script>
 
 <style scoped>

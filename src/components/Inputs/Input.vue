@@ -7,9 +7,8 @@
 <script setup>
 </script>
 
-<style>
+<style scoped>
 .wrapper {
-    
   position: relative;
   width: 260px;
   height: 60px;

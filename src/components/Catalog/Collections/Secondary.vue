@@ -50,7 +50,7 @@ import secondaryCollectionImage7 from "@/assets/secondary-collection-item-7.png"
 import secondaryCollectionImage8 from "@/assets/secondary-collection-item-8.png";
 </script>
 
-<style>
+<style scoped>
 
 .collection__secondary_row {
   display: flex;

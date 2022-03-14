@@ -1,12 +1,11 @@
 <template>
   <div>
     <img :src="BurgerIcon" alt="" />
-    test
   </div>
 </template>
 
 <script setup>
-import BurgerIcon from "./assets/headerimg/Burger.svg";
+import BurgerIcon from "@/assets/headerimg/Burger.svg";
 </script>
 
 <style scoped>

@@ -1,8 +1,9 @@
 <script setup>
-
+import Header from "./components/Header/Header.vue";
 </script>
 
 <template>
+  <Header />
   <RouterView />
 </template>
 
@@ -16,7 +17,7 @@ h4,
 h5,
 h6,
 p,
-hr{
+hr {
   margin: 0;
   padding: 0;
 }

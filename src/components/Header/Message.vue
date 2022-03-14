@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import Message from './assets/headerimg/Message.svg'
+import Message from '@/assets/headerimg/Message.svg'
 </script>
 
 <style scoped>

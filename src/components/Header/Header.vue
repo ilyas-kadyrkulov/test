@@ -25,8 +25,8 @@ import Search from "./Search.vue";
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding-top: 18px;
   align-items: center;
+  padding-top: 18px;
 }
 .wrapper-left {
   width: 20%;

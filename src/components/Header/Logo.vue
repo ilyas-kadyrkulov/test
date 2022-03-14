@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import LogoIcon from './assets/headerimg/Logo.svg'
+import LogoIcon from '@/assets/headerimg/Logo.svg'
 </script>
 
 <style scoped>

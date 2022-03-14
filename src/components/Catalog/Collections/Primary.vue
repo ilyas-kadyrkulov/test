@@ -44,7 +44,7 @@ import collectionImage5 from "@/assets/collection-item-5.png";
 import collectionImage6 from "@/assets/collection-item-6.png";
 </script>
 
-<style>
+<style scoped>
 .collection {
   display: flex;
   flex-wrap: wrap;

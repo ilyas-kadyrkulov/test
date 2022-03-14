@@ -1,11 +1,11 @@
 <template>
   <div>
-    <img :src="SaerchIcon" alt="" />
+    <img :src="SearchIcon" alt="" />
   </div>
 </template>
 
 <script setup>
-import SaerchIcon from './assets/headerimg/.svg'
+import SearchIcon from '@/assets/headerimg/Search.svg'
 </script>
 
 <style scoped>
